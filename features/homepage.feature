@@ -1,6 +1,8 @@
-Feature: Playwright Home Page
+Feature: Optional texts
 
-  Scenario: Check title
-    Given I am on Playwright home page
-    When I click link "Get started"
-    Then I see in title "Installation"
+  Scenario: Decorator steps
+    Given This basic pom step
+    Then This step with suppressed text should pass null value to the argument
+    Then This step with no suppressed text should pass defined value to the argument
+    And The comparison 1 > 2 is not correct
+    And The comparison 2 > 1 is correct
