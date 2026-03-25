@@ -1,3 +1,5 @@
 
 
-export default class PomClassExercise {}
+export default class PomClassExercise {
+    // Implement the steps here...
+}

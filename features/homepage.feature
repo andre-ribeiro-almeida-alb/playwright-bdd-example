@@ -5,9 +5,11 @@ Feature: Playwright Home Page
     When I click link "Get started"
     Then I see in title "Installation"
 
+  @example
   Scenario: Basic Decorator Test
     Given A basic step
 
+  @exercise
   Scenario: Unimplemented decorator test
     Given I am logged in TSTs env
     When I open the projects module

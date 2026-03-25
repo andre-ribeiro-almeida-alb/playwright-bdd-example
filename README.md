@@ -2,55 +2,27 @@
 
 A minimal example project that uses [playwright-bdd](https://github.com/vitalets/playwright-bdd) to run BDD tests with Playwright.
 
-> [!IMPORTANT]
-> If you are using [Yarn Plug'n'Play](https://yarnpkg.com/features/pnp), please check out [yarn-pnp](https://github.com/vitalets/playwright-bdd-example/tree/yarn-pnp) branch. 
+To setup, run:
+```
+npm ci && npx playwright install
+```
 
-## How to report a bug
+## Exercise
 
-1. [Fork](https://github.com/vitalets/playwright-bdd-example/fork) the repo!
-2. Clone it to your local machine
+Implement a basic test using **playwright-bdd**.
 
-   ```
-   git clone https://github.com/YOUR_GITHUB_USERNAME/playwright-bdd-example.git
-   ```
+### Examples
+To help with the exercise, check the examples provided at:
+- [PomClassExample](/features/steps/pom-class-example.ts), to see how steps are defined with decorators over class methods
+- [fixtures.ts](/features/steps/fixtures.ts), to see how a class can be configured to *hold step implementations*
+- [index.ts](/features/steps/index.ts), to see how steps can be implemented
 
-3. Change directory to `playwright-bdd-example`
+### 1. Make `npx bddgen` pass
+1. Configure the fixture class `PomClassExercise`.
+2. Define the step methods under that class
 
-   ```
-   cd playwright-bdd-example
-   ```
+### 2. Make the test pass
+You can run the tests in one of two ways:
+- With the GUI window: `npm run watch`
+- On the command line: `npx bddgen && npx playwright test -g "@exercise"`
 
-4. Install dependencies
-
-   ```
-   npm install
-   ```
-
-5. Install browsers
-
-   ```
-   npx playwright install
-   ```
-
-6. Run tests
-
-   ```
-   npm test
-   ```
-
-   Output:
-
-   ```
-   Running 2 tests using 1 worker
-   2 passed (2.3s)
-   ```
-
-7. Make changes reproducing a bug
-
-8. Commit and push changes
-   ```
-   git add .
-   git commit -m'repro for playwright-bdd issue xxx'
-   git push
-   ```
-9. [Open a pull-request](https://github.com/vitalets/playwright-bdd-example/pulls) and share the link
