@@ -18,7 +18,7 @@ To help with the exercise, check the examples provided at:
 - [index.ts](/features/steps/index.ts), to see how steps can be implemented
 
 ### 1. Make `npx bddgen` pass
-1. Configure the fixture class `PomClassExercise`.
+1. Configure the fixture class [PomClassExercise](/features/steps/pom-class-exercise.ts) on [fixtures.ts](/features/steps/fixtures.ts).
 2. Define the step methods under that class
 
 ### 2. Make the test pass
