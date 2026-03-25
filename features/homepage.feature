@@ -11,5 +11,5 @@ Feature: Playwright Home Page
   Scenario: Unimplemented decorator test
     Given I am logged in TSTs env
     When I open the projects module
-    And I search project with name "Placeholder"
+    And I search project with name "Teste Projecto Com Entidades"
     Then I validate I see the project with a simple expect
