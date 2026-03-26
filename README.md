@@ -18,7 +18,7 @@ Implement a basic test using **playwright-bdd**.
 ### 2. Make the test pass
 You can run the tests in one of two ways:
 - With the GUI window: `npm run watch`
-- On the command line: `npx bddgen && npx playwright test -g "@exercise"`
+- On the command line: `npx bddgen && npx playwright test -g "@TEST_NETWIN-12345"`
 
 ## Examples
 To help with the exercise, check the examples provided at:
