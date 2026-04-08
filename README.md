@@ -5,4 +5,4 @@ How to migrate from npm to pnpm:
 3. Run `pnpm import`
 4. Delete `package-lock.json`
 
-Run `pnpm watch`.
+Run `pnpm watch` for your tests.
