@@ -4,7 +4,8 @@
 
 # npm
 node_modules
-npm-debug.log
+.pnpm-store/
+.pnpm-debug.log
 
 # yarn
 .pnp.*
